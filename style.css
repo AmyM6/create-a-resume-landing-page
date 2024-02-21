@@ -1,0 +1,134 @@
+.navbar-container {
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+
+.baby {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    height: 50px;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 80px;
+    size: 50px;
+    float: left;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Send Flowers', cursive;
+    color: palevioletred;
+    
+}
+
+a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 90px;
+    font-size: 20px;
+    color: gray;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    min-height: 125vh;
+} */
+
+.container-fluid {
+    columns: wrap;
+}
+
+.container-fluid > div:first-child {
+    background-color: palevioletred;
+}
+
+.col-6 {
+    columns: wrap;
+    height: 250px;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 300px;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    margin-left: 300px;
+}
+
+.intro {
+    text-align: left;
+    color: white;
+    margin-left: 310px;
+}
+
+hr {
+    margin-left: 300px;
+}
+
+img {
+    width: 25%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 150px;
+    border: black solid
+}
+
+.col-4:hover {
+    columns: wrap;
+    margin-top: 40px;
+    background-color: gray;
+}
+
+h4  {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+}
+
+ul li {
+    padding: 8px 15px;
+    border-bottom: 1 px solid #ddd;
+}
+li {
+    border: 1px solid #ddd;
+}
+
+#advice {
+    text-align: center;
+}
+
+.col-12 {
+    background-color: palevioletred;
+}
+
+/* #footer {
+   margin-top: auto;
+} */
+
+
+#footer {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.github {
+    color: blue;
+    margin-top: 1px;
+}
+
